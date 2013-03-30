@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SobreTeleco</string>
+    <string name="la_escuela">La Escuela</string>
+    <string name="sobre_la_escuela">Sobre la escuela</string>
+    <string name="sobre_teleco_mensaje">La escuela decana de Ingeniería de Telecomunicación</string>
+    <string name="foto_de_la_etsit">Foto de la ETSIT</string>
+
+</resources>

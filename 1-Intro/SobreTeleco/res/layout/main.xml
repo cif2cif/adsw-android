@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/la_escuela"
+        android:textSize="28dp" />
+
+    <ImageView
+        android:id="@+id/imageViewEtsit"
+        android:onClick="intercambiaImagen"
+        android:contentDescription="@string/foto_de_la_etsit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.42"
+        android:src="@drawable/etsit" />
+
+    <Button
+        android:id="@+id/sobreTelecoButton"
+        android:onClick="muestraMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sobre_la_escuela" />
+
+</LinearLayout>
