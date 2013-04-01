@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculadora</string>
+    <string name="action_settings">Settings</string>
+    <string name="etiqueta_calculadora">Calculadora</string>
+    <string name="ayuda_valor_1">Introduce valor 1</string>
+    <string name="ayuda_valor_2">Introduce valor 2</string>
+    <string name="etiqueta_resultado">Resultado</string>
+    <string name="boton_sumar">sumar</string>
+	<string name="boton_multiplicar">multiplicar</string>
+	<string name="sin_resultado">--</string>
+	<string name="error_operar">Debes introducir un valor número para valor 1 y valor 2</string>
+</resources>
