@@ -11,4 +11,8 @@
 	<string name="boton_multiplicar">multiplicar</string>
 	<string name="sin_resultado">--</string>
 	<string name="error_operar">Debes introducir un valor número para valor 1 y valor 2</string>
+	<string name="item_ayuda">Ayuda</string>
+	<string name="item_acerca">Acerca de</string>
+	<string name="ayuda">Introduce números en las dos casillas y pulsa los botones</string>
+	<string name="acerca">Ejemplo Calculadra para ADSW</string>
 </resources>
