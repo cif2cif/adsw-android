@@ -2,6 +2,7 @@
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -9,8 +10,8 @@ import android.widget.Toast;
 
 
 public class SobreTelecoActivity extends Activity {
-    /** Called when the activity is first created. */
-	
+   
+	private final static String TAG = SobreTelecoActivity.class.getName();
 	private boolean imagenInicial = true;
 	
     @Override
@@ -27,9 +28,11 @@ public class SobreTelecoActivity extends Activity {
     public void intercambiaImagen(View v) {
     	ImageView foto = (ImageView) findViewById(R.id.imageViewEtsit);
     	if (imagenInicial) {
-    		foto.setImageResource(R.drawable.etsit);
-    	} else {
+    		Log.i(TAG, "Puesta imagen inicial");
     		foto.setImageResource(R.drawable.etsit_b);
+    	} else {
+    		Log.i(TAG, "Puesta imagen alternativa");
+    		foto.setImageResource(R.drawable.etsit);
     	}
     	imagenInicial = ! imagenInicial; //conmuta
     }
