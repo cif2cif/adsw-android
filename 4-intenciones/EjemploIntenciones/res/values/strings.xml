@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="empty">Lista vacía</string>
+    <string name="app_name">EjemploIntenciones</string>
+    <string name="op_llamar">Llamar por teléfono</string>
+    <string name="op_listar">Listar contactos</string>
+    <string name="op_ver">Ver contacto</string>
+    <string name="op_editar">Editar contacto</string>
+    <string name="op_escoger">Escoger contacto</string>
+    <string name="op_navegar">Navegar</string>
+    <string name="op_mail">Enviar correo</string>
+    <string name="op_compartir">Compartir</string>
+    <string name="compartir_con">Comparte aplicación con</string>
+    <string name="opcion">Opción</string>
+    <string name="cancel">Selección cancelada</string>
+
+</resources>
