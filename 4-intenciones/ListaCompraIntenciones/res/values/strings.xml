@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lista de la Compra con Intenciones</string>
+    <string name="detalle">Detalle Producto</string>
+    <string name="lista">Lista de la Compra</string>
+    <string name="nombreLabel">Producto</string>
+    <string name="nombreHint">Qué quieres comprar</string>
+    <string name="cantidadLabel">Cantidad</string>
+    <string name="cantidadHint">Cuántos quieres comprar</string>
+    <string name="listaVacia">Todavía no tienes ningún producto en la lista</string>
+    <string name="addProducto">Añadir producto</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="ordenar">Ordenar</string>
+    <string name="cargar">Cargar</string>
+    <string name="menu_annadir">Añadir</string>
+    <string name="menu_ayuda">Ayuda</string>
+    <string name="msg_ayuda">Aplicación ejemplo de intenciones de ADSW</string>
+    <string name="error_detalle">Problema al editar o crear producto</string>
+
+</resources>
